@@ -9,7 +9,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+<img src="https://github.com/imWalsh/PitTabbarController/blob/main/Resources/Screen%20Recording%20-%20iPhone%2014%20Pro%20Max.gif" height="500"/>
 
 ## Installation
 
@@ -18,6 +18,19 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'PitTabbarController'
+```
+
+## Basic usage
+
+1. Add `pod 'PitTabbarController'` to your Podfile.
+2. AppDelegate
+
+```swift
+	let tabBarController = PitTabbarController()
+        
+	tabBarController.viewControllers = [v1, v2, v3, v4]
+        
+	window?.rootViewController = tabBarController
 ```
 
 ## Author
