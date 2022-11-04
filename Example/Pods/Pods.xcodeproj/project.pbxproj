@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28D1BDCF2E21E398583D653A262D1C13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		3A323D7E419D435E979380A2577D0A88 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */; };
+		43EA6B7D2914F7E1004C64C5 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EA6B7C2914F7E1004C64C5 /* Constant.swift */; };
+		6D043EA961153E6F3AEA2050F4BC5510 /* PitTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910B851C642E24CC4E3DB7788658124F /* PitTabbarController.swift */; };
+		A8CE31CA09475DEBF358028CF025F46B /* Pods-PitTabbarController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F92EEA34BB1157EBCCBCE38FE011202 /* Pods-PitTabbarController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B238F632286309DC2463E87C5C9DEF81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		C2F7CB23BB682E6E3D630B8BB42B86A5 /* UIApplication+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28125FE512621265342D18938EA47D3 /* UIApplication+Ex.swift */; };
+		C5C8F472F763B198E217E4EE9D74338A /* PitTabbarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8659FDFD836C15142CFD5BD90CD15111 /* PitTabbarButton.swift */; };
+		CCBD333507A23E5ADE12EAD8DB3868EE /* PitTabbarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6CCA2BEAE603738B27742697A7063C0 /* PitTabbarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D10879D42753A2DF7471862054016349 /* Pods-PitTabbarController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EEDC7355FC657526C928A01B6AB457B /* Pods-PitTabbarController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9F909BF876C8C6254150A67024C4715 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		E717428A624765C432670350788C84BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */; };
+		F61709210D9A6D5869DF5E92A7DB957A /* PitTabbarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D04BFF71537A6EB0BCD1D2807278BB0 /* PitTabbarController-dummy.m */; };
+		F73915DF7FFC02DAEC9742F6AF6814C0 /* Pods-PitTabbarController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DDE65DC8F4BE85773FF6132BB3E5B00 /* Pods-PitTabbarController_Example-dummy.m */; };
+		FDFD6CE4C90B12CFFB51C257CEF0F517 /* Pods-PitTabbarController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C57B5C68857154FD780DBC7940E72B /* Pods-PitTabbarController_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB987B70D9E5B6A0648D1B98B434221A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76084AFD86AD673C4C956A2A05AEB51A;
+			remoteInfo = PitTabbarController;
+		};
+		D8E723CB58CCB637A9C4DF7F726EB1EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8AD0C71784E9EA4A29ED2FFBE738808;
+			remoteInfo = "Pods-PitTabbarController_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0199CE305004B7FA4D6C6B349C6CDE7F /* Pods-PitTabbarController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PitTabbarController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		06D6A47C1BCF043EDAA74482AC557491 /* Pods-PitTabbarController_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PitTabbarController_Example"; path = Pods_PitTabbarController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F6C156E67B4B1A64FCE91237CE9A454 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		18503D5E93126D99A09136A870CE2270 /* PitTabbarController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PitTabbarController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		21588275B247448305799BEFF64BA3B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2527329A953605EC71F5DAB28A6F1F1E /* Pods-PitTabbarController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PitTabbarController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2D04BFF71537A6EB0BCD1D2807278BB0 /* PitTabbarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PitTabbarController-dummy.m"; sourceTree = "<group>"; };
+		3C61059C05E59C158359E0371DC76E5D /* Pods-PitTabbarController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PitTabbarController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		43EA6B7C2914F7E1004C64C5 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = ../../../Walsh/Desktop/pit/PitTabbarController/Classes/Constant.swift; sourceTree = "<group>"; };
+		4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		591B54BE7344BC6EB5167A248A84BB7D /* Pods-PitTabbarController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PitTabbarController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		599C204B7D2B4F4066EE4C998B4AD312 /* Pods-PitTabbarController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PitTabbarController_Example-Info.plist"; sourceTree = "<group>"; };
+		6C6CDDC4A9005BCE76E140290448DF00 /* Pods-PitTabbarController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PitTabbarController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6F92EEA34BB1157EBCCBCE38FE011202 /* Pods-PitTabbarController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PitTabbarController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		70DF4039151C5A5E82F8BF396244D755 /* Pods-PitTabbarController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PitTabbarController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		72B0C58D40CAC4670E7EFD162C633891 /* PitTabbarController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PitTabbarController.release.xcconfig; sourceTree = "<group>"; };
+		8659FDFD836C15142CFD5BD90CD15111 /* PitTabbarButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PitTabbarButton.swift; path = PitTabbarController/Classes/PitTabbarButton.swift; sourceTree = "<group>"; };
+		8829800216D6632C5BE2B54B1111624A /* PitTabbarController */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PitTabbarController; path = PitTabbarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F4547C44E674CB0E12F5943EA7C4E9 /* PitTabbarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PitTabbarController.modulemap; sourceTree = "<group>"; };
+		89A8FC6AD90BBCEA60C3D9866EF9B5F3 /* PitTabbarController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PitTabbarController-Info.plist"; sourceTree = "<group>"; };
+		8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8EEDC7355FC657526C928A01B6AB457B /* Pods-PitTabbarController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PitTabbarController_Example-umbrella.h"; sourceTree = "<group>"; };
+		910B851C642E24CC4E3DB7788658124F /* PitTabbarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PitTabbarController.swift; path = PitTabbarController/Classes/PitTabbarController.swift; sourceTree = "<group>"; };
+		92C57B5C68857154FD780DBC7940E72B /* Pods-PitTabbarController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PitTabbarController_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DDE65DC8F4BE85773FF6132BB3E5B00 /* Pods-PitTabbarController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PitTabbarController_Example-dummy.m"; sourceTree = "<group>"; };
+		9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		B3582FDEE6889180BC6EEBD2BA36B6AC /* Pods-PitTabbarController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PitTabbarController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C1DD70C32C387896E99910CE4D1F4F8F /* Pods-PitTabbarController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PitTabbarController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C8B32EBD2375A2FDF5205FBAA67993A4 /* PitTabbarController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PitTabbarController.debug.xcconfig; sourceTree = "<group>"; };
+		D02C9967A792341DFDB6650D318A1C0B /* Pods-PitTabbarController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PitTabbarController_Tests-Info.plist"; sourceTree = "<group>"; };
+		DC63E12C32FF2A47CA3FAA2EB8C85906 /* Pods-PitTabbarController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PitTabbarController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E8882683B49DE9F8DF73EC2F4106BAEE /* Pods-PitTabbarController_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PitTabbarController_Tests"; path = Pods_PitTabbarController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0536AA7EDA53A5AD9C3BC77225CE3F6 /* Pods-PitTabbarController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PitTabbarController_Tests.modulemap"; sourceTree = "<group>"; };
+		F28125FE512621265342D18938EA47D3 /* UIApplication+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+Ex.swift"; path = "PitTabbarController/Classes/UIApplication+Ex.swift"; sourceTree = "<group>"; };
+		F6CCA2BEAE603738B27742697A7063C0 /* PitTabbarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PitTabbarController-umbrella.h"; sourceTree = "<group>"; };
+		FBC9DE509205E5F5C0E8D7413B09D3E4 /* Pods-PitTabbarController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PitTabbarController_Example.modulemap"; sourceTree = "<group>"; };
+		FFCF7A862EF7C3939C259DA6D37E0109 /* PitTabbarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PitTabbarController-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0ADA53446E788BC6CDD45E44D41B58FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F909BF876C8C6254150A67024C4715 /* Foundation.framework in Frameworks */,
+				3A323D7E419D435E979380A2577D0A88 /* QuartzCore.framework in Frameworks */,
+				E717428A624765C432670350788C84BE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2876515F448AA479548BD2836994B575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B238F632286309DC2463E87C5C9DEF81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF1A1F99B9AE7F77B95E25F90899EBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28D1BDCF2E21E398583D653A262D1C13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0A778C0229E9BF1FD97896B93F3272B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A14282FA857E29DC6C6EB5F88740FD4 /* Pods-PitTabbarController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F0536AA7EDA53A5AD9C3BC77225CE3F6 /* Pods-PitTabbarController_Tests.modulemap */,
+				DC63E12C32FF2A47CA3FAA2EB8C85906 /* Pods-PitTabbarController_Tests-acknowledgements.markdown */,
+				2527329A953605EC71F5DAB28A6F1F1E /* Pods-PitTabbarController_Tests-acknowledgements.plist */,
+				92C57B5C68857154FD780DBC7940E72B /* Pods-PitTabbarController_Tests-dummy.m */,
+				D02C9967A792341DFDB6650D318A1C0B /* Pods-PitTabbarController_Tests-Info.plist */,
+				6F92EEA34BB1157EBCCBCE38FE011202 /* Pods-PitTabbarController_Tests-umbrella.h */,
+				70DF4039151C5A5E82F8BF396244D755 /* Pods-PitTabbarController_Tests.debug.xcconfig */,
+				591B54BE7344BC6EB5167A248A84BB7D /* Pods-PitTabbarController_Tests.release.xcconfig */,
+			);
+			name = "Pods-PitTabbarController_Tests";
+			path = "Target Support Files/Pods-PitTabbarController_Tests";
+			sourceTree = "<group>";
+		};
+		4B9A84AB85E082E6D3511C51CB5ACCEF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				21588275B247448305799BEFF64BA3B1 /* LICENSE */,
+				18503D5E93126D99A09136A870CE2270 /* PitTabbarController.podspec */,
+				0F6C156E67B4B1A64FCE91237CE9A454 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		66C87E6F5A8E8D5D5E7ACCBCFAE0AC63 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				88F4547C44E674CB0E12F5943EA7C4E9 /* PitTabbarController.modulemap */,
+				2D04BFF71537A6EB0BCD1D2807278BB0 /* PitTabbarController-dummy.m */,
+				89A8FC6AD90BBCEA60C3D9866EF9B5F3 /* PitTabbarController-Info.plist */,
+				FFCF7A862EF7C3939C259DA6D37E0109 /* PitTabbarController-prefix.pch */,
+				F6CCA2BEAE603738B27742697A7063C0 /* PitTabbarController-umbrella.h */,
+				C8B32EBD2375A2FDF5205FBAA67993A4 /* PitTabbarController.debug.xcconfig */,
+				72B0C58D40CAC4670E7EFD162C633891 /* PitTabbarController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PitTabbarController";
+			sourceTree = "<group>";
+		};
+		72F66CABF1B5630993BF075234B7C884 /* PitTabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				43EA6B7C2914F7E1004C64C5 /* Constant.swift */,
+				8659FDFD836C15142CFD5BD90CD15111 /* PitTabbarButton.swift */,
+				910B851C642E24CC4E3DB7788658124F /* PitTabbarController.swift */,
+				F28125FE512621265342D18938EA47D3 /* UIApplication+Ex.swift */,
+				4B9A84AB85E082E6D3511C51CB5ACCEF /* Pod */,
+				66C87E6F5A8E8D5D5E7ACCBCFAE0AC63 /* Support Files */,
+			);
+			name = PitTabbarController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8D6C03373F6AA2775CBC5DA3F7803807 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E2BC2631B8B2E21EC531C68373A22F4 /* Pods-PitTabbarController_Example */,
+				4A14282FA857E29DC6C6EB5F88740FD4 /* Pods-PitTabbarController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9E2BC2631B8B2E21EC531C68373A22F4 /* Pods-PitTabbarController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FBC9DE509205E5F5C0E8D7413B09D3E4 /* Pods-PitTabbarController_Example.modulemap */,
+				B3582FDEE6889180BC6EEBD2BA36B6AC /* Pods-PitTabbarController_Example-acknowledgements.markdown */,
+				6C6CDDC4A9005BCE76E140290448DF00 /* Pods-PitTabbarController_Example-acknowledgements.plist */,
+				9DDE65DC8F4BE85773FF6132BB3E5B00 /* Pods-PitTabbarController_Example-dummy.m */,
+				0199CE305004B7FA4D6C6B349C6CDE7F /* Pods-PitTabbarController_Example-frameworks.sh */,
+				599C204B7D2B4F4066EE4C998B4AD312 /* Pods-PitTabbarController_Example-Info.plist */,
+				8EEDC7355FC657526C928A01B6AB457B /* Pods-PitTabbarController_Example-umbrella.h */,
+				3C61059C05E59C158359E0371DC76E5D /* Pods-PitTabbarController_Example.debug.xcconfig */,
+				C1DD70C32C387896E99910CE4D1F4F8F /* Pods-PitTabbarController_Example.release.xcconfig */,
+			);
+			name = "Pods-PitTabbarController_Example";
+			path = "Target Support Files/Pods-PitTabbarController_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F49A72F0CE3013091EEAB3EF79ADA925 /* Development Pods */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				DE29FC2D0123B95C07463144FA935A08 /* Products */,
+				8D6C03373F6AA2775CBC5DA3F7803807 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DE29FC2D0123B95C07463144FA935A08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8829800216D6632C5BE2B54B1111624A /* PitTabbarController */,
+				06D6A47C1BCF043EDAA74482AC557491 /* Pods-PitTabbarController_Example */,
+				E8882683B49DE9F8DF73EC2F4106BAEE /* Pods-PitTabbarController_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0A778C0229E9BF1FD97896B93F3272B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */,
+				9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */,
+				8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F49A72F0CE3013091EEAB3EF79ADA925 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72F66CABF1B5630993BF075234B7C884 /* PitTabbarController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7F211C23325380E8AF21BEFA3FE873A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBD333507A23E5ADE12EAD8DB3868EE /* PitTabbarController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92EDC47BA6CCBECB34F2D91DBE73ADEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8CE31CA09475DEBF358028CF025F46B /* Pods-PitTabbarController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9F99B80F5F1C83768AC84423EECE47A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10879D42753A2DF7471862054016349 /* Pods-PitTabbarController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		76084AFD86AD673C4C956A2A05AEB51A /* PitTabbarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A7624F25E1D877A86A89A15C152F48C /* Build configuration list for PBXNativeTarget "PitTabbarController" */;
+			buildPhases = (
+				7F211C23325380E8AF21BEFA3FE873A0 /* Headers */,
+				A563ED79D2A4AC35D894ECBD68103B33 /* Sources */,
+				0ADA53446E788BC6CDD45E44D41B58FA /* Frameworks */,
+				519ADE88C9BBC9C0638A79B182EF1D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PitTabbarController;
+			productName = PitTabbarController;
+			productReference = 8829800216D6632C5BE2B54B1111624A /* PitTabbarController */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8AD0C71784E9EA4A29ED2FFBE738808 /* Pods-PitTabbarController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9A5DCC3769FFAA06DA62AB9F0BC08E1 /* Build configuration list for PBXNativeTarget "Pods-PitTabbarController_Example" */;
+			buildPhases = (
+				C9F99B80F5F1C83768AC84423EECE47A /* Headers */,
+				838E9FE25F982612F05AFE7358BFB11F /* Sources */,
+				9AF1A1F99B9AE7F77B95E25F90899EBF /* Frameworks */,
+				1436EE12F08AA4D6C9D8E40BF651793A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8FA0989B0F5A6663E830598DADBB668 /* PBXTargetDependency */,
+			);
+			name = "Pods-PitTabbarController_Example";
+			productName = Pods_PitTabbarController_Example;
+			productReference = 06D6A47C1BCF043EDAA74482AC557491 /* Pods-PitTabbarController_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE8C565A00EABD29AE923426C9DDE84F /* Pods-PitTabbarController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 865200D5E74C18CEA8EF337ECFB01CB6 /* Build configuration list for PBXNativeTarget "Pods-PitTabbarController_Tests" */;
+			buildPhases = (
+				92EDC47BA6CCBECB34F2D91DBE73ADEF /* Headers */,
+				D7D8C53E234CB17CAE74DDB041562787 /* Sources */,
+				2876515F448AA479548BD2836994B575 /* Frameworks */,
+				07BEDAD240280CE63FBBEDA45154687C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ACCD6524C61197FF3C60928B1C356FF /* PBXTargetDependency */,
+			);
+			name = "Pods-PitTabbarController_Tests";
+			productName = Pods_PitTabbarController_Tests;
+			productReference = E8882683B49DE9F8DF73EC2F4106BAEE /* Pods-PitTabbarController_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DE29FC2D0123B95C07463144FA935A08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76084AFD86AD673C4C956A2A05AEB51A /* PitTabbarController */,
+				B8AD0C71784E9EA4A29ED2FFBE738808 /* Pods-PitTabbarController_Example */,
+				BE8C565A00EABD29AE923426C9DDE84F /* Pods-PitTabbarController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07BEDAD240280CE63FBBEDA45154687C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1436EE12F08AA4D6C9D8E40BF651793A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		519ADE88C9BBC9C0638A79B182EF1D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		838E9FE25F982612F05AFE7358BFB11F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73915DF7FFC02DAEC9742F6AF6814C0 /* Pods-PitTabbarController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A563ED79D2A4AC35D894ECBD68103B33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C8F472F763B198E217E4EE9D74338A /* PitTabbarButton.swift in Sources */,
+				6D043EA961153E6F3AEA2050F4BC5510 /* PitTabbarController.swift in Sources */,
+				43EA6B7D2914F7E1004C64C5 /* Constant.swift in Sources */,
+				F61709210D9A6D5869DF5E92A7DB957A /* PitTabbarController-dummy.m in Sources */,
+				C2F7CB23BB682E6E3D630B8BB42B86A5 /* UIApplication+Ex.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D8C53E234CB17CAE74DDB041562787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDFD6CE4C90B12CFFB51C257CEF0F517 /* Pods-PitTabbarController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4ACCD6524C61197FF3C60928B1C356FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PitTabbarController_Example";
+			target = B8AD0C71784E9EA4A29ED2FFBE738808 /* Pods-PitTabbarController_Example */;
+			targetProxy = D8E723CB58CCB637A9C4DF7F726EB1EC /* PBXContainerItemProxy */;
+		};
+		A8FA0989B0F5A6663E830598DADBB668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PitTabbarController;
+			target = 76084AFD86AD673C4C956A2A05AEB51A /* PitTabbarController */;
+			targetProxy = BB987B70D9E5B6A0648D1B98B434221A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D451A4A723F1057AFF28193D47C9721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1DD70C32C387896E99910CE4D1F4F8F /* Pods-PitTabbarController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PitTabbarController_Example/Pods-PitTabbarController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PitTabbarController_Example/Pods-PitTabbarController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		607CA1327345A4A4C86BBB13CD8D90AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72B0C58D40CAC4670E7EFD162C633891 /* PitTabbarController.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PitTabbarController/PitTabbarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PitTabbarController/PitTabbarController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PitTabbarController/PitTabbarController.modulemap";
+				PRODUCT_MODULE_NAME = PitTabbarController;
+				PRODUCT_NAME = PitTabbarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9249595031705E079F35F629CB1F5B83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70DF4039151C5A5E82F8BF396244D755 /* Pods-PitTabbarController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PitTabbarController_Tests/Pods-PitTabbarController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PitTabbarController_Tests/Pods-PitTabbarController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D95D49F6B74CF5EBE804A29863F8EA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C61059C05E59C158359E0371DC76E5D /* Pods-PitTabbarController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PitTabbarController_Example/Pods-PitTabbarController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PitTabbarController_Example/Pods-PitTabbarController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E40053964AE064A3B4F1B989E12F77FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 591B54BE7344BC6EB5167A248A84BB7D /* Pods-PitTabbarController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PitTabbarController_Tests/Pods-PitTabbarController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PitTabbarController_Tests/Pods-PitTabbarController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F2D44ED03B93C2ED98DCFFEC6A7E1CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8B32EBD2375A2FDF5205FBAA67993A4 /* PitTabbarController.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PitTabbarController/PitTabbarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PitTabbarController/PitTabbarController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PitTabbarController/PitTabbarController.modulemap";
+				PRODUCT_MODULE_NAME = PitTabbarController;
+				PRODUCT_NAME = PitTabbarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A7624F25E1D877A86A89A15C152F48C /* Build configuration list for PBXNativeTarget "PitTabbarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D44ED03B93C2ED98DCFFEC6A7E1CDE /* Debug */,
+				607CA1327345A4A4C86BBB13CD8D90AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		865200D5E74C18CEA8EF337ECFB01CB6 /* Build configuration list for PBXNativeTarget "Pods-PitTabbarController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9249595031705E079F35F629CB1F5B83 /* Debug */,
+				E40053964AE064A3B4F1B989E12F77FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9A5DCC3769FFAA06DA62AB9F0BC08E1 /* Build configuration list for PBXNativeTarget "Pods-PitTabbarController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D95D49F6B74CF5EBE804A29863F8EA7 /* Debug */,
+				1D451A4A723F1057AFF28193D47C9721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

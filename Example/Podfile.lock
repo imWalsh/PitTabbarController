@@ -1,0 +1,16 @@
+PODS:
+  - PitTabbarController (0.1.0)
+
+DEPENDENCIES:
+  - PitTabbarController (from `../`)
+
+EXTERNAL SOURCES:
+  PitTabbarController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PitTabbarController: 49e4187e72a060d67456db510be7bd6ea446a382
+
+PODFILE CHECKSUM: dfe1f51370243303c767634dbdc35e31fa1205f0
+
+COCOAPODS: 1.11.3

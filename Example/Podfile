@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '13.0'
+
+target 'PitTabbarController_Example' do
+  pod 'PitTabbarController', :path => '../'
+
+  target 'PitTabbarController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

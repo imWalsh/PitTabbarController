@@ -1,0 +1,6 @@
+framework module PitTabbarController {
+  umbrella header "PitTabbarController-umbrella.h"
+
+  export *
+  module * { export * }
+}
