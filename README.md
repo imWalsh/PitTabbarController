@@ -35,7 +35,7 @@ pod 'PitTabbarController'
 
 ## Author
 
-imwalsh, wshjay@live.cn
+imWalsh, wshjay@live.cn
 
 ## License
 
