@@ -4,6 +4,7 @@
 
 ## Example
 
+<br clear="left"/>
 ![PitTabbarController](https://github.com/imWalsh/PitTabbarController/blob/main/Resources/screenshot.png#pic_center=340x200)
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
