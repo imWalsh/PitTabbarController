@@ -11,6 +11,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 <img src="https://github.com/imWalsh/PitTabbarController/blob/main/Resources/Screen%20Recording%20-%20iPhone%2014%20Pro%20Max.gif" height="500"/>
 
+## Requirements
+* Xcode 11+
+* iOS 13.0+
+* Swift 5.0
+
 ## Installation
 
 PitTabbarController is available through [CocoaPods](https://cocoapods.org). To install

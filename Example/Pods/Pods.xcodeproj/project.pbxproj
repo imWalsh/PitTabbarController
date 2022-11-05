@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		28D1BDCF2E21E398583D653A262D1C13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
 		3A323D7E419D435E979380A2577D0A88 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */; };
-		43EA6B7D2914F7E1004C64C5 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EA6B7C2914F7E1004C64C5 /* Constant.swift */; };
+		43AB9E9729151B61007D5651 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AB9E9629151B61007D5651 /* Constant.swift */; };
 		6D043EA961153E6F3AEA2050F4BC5510 /* PitTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910B851C642E24CC4E3DB7788658124F /* PitTabbarController.swift */; };
 		A8CE31CA09475DEBF358028CF025F46B /* Pods-PitTabbarController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F92EEA34BB1157EBCCBCE38FE011202 /* Pods-PitTabbarController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B238F632286309DC2463E87C5C9DEF81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
@@ -50,7 +50,7 @@
 		2527329A953605EC71F5DAB28A6F1F1E /* Pods-PitTabbarController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PitTabbarController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2D04BFF71537A6EB0BCD1D2807278BB0 /* PitTabbarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PitTabbarController-dummy.m"; sourceTree = "<group>"; };
 		3C61059C05E59C158359E0371DC76E5D /* Pods-PitTabbarController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PitTabbarController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		43EA6B7C2914F7E1004C64C5 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = ../../../Walsh/Desktop/pit/PitTabbarController/Classes/Constant.swift; sourceTree = "<group>"; };
+		43AB9E9629151B61007D5651 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = ../../../Walsh/Desktop/PitTabbarController/PitTabbarController/Classes/Constant.swift; sourceTree = "<group>"; };
 		4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		591B54BE7344BC6EB5167A248A84BB7D /* Pods-PitTabbarController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PitTabbarController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		599C204B7D2B4F4066EE4C998B4AD312 /* Pods-PitTabbarController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PitTabbarController_Example-Info.plist"; sourceTree = "<group>"; };
@@ -164,7 +164,7 @@
 		72F66CABF1B5630993BF075234B7C884 /* PitTabbarController */ = {
 			isa = PBXGroup;
 			children = (
-				43EA6B7C2914F7E1004C64C5 /* Constant.swift */,
+				43AB9E9629151B61007D5651 /* Constant.swift */,
 				8659FDFD836C15142CFD5BD90CD15111 /* PitTabbarButton.swift */,
 				910B851C642E24CC4E3DB7788658124F /* PitTabbarController.swift */,
 				F28125FE512621265342D18938EA47D3 /* UIApplication+Ex.swift */,
@@ -394,7 +394,7 @@
 			files = (
 				C5C8F472F763B198E217E4EE9D74338A /* PitTabbarButton.swift in Sources */,
 				6D043EA961153E6F3AEA2050F4BC5510 /* PitTabbarController.swift in Sources */,
-				43EA6B7D2914F7E1004C64C5 /* Constant.swift in Sources */,
+				43AB9E9729151B61007D5651 /* Constant.swift in Sources */,
 				F61709210D9A6D5869DF5E92A7DB957A /* PitTabbarController-dummy.m in Sources */,
 				C2F7CB23BB682E6E3D630B8BB42B86A5 /* UIApplication+Ex.swift in Sources */,
 			);
