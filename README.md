@@ -4,7 +4,7 @@
 
 ## Example
 
-<img src="https://github.com/imWalsh/PitTabbarController/blob/main/Resources/screenshot.png" height="300" style="float: center;"/>
+<div align=center><img src="https://github.com/imWalsh/PitTabbarController/blob/main/Resources/screenshot.png" height="200"/></div>
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
