@@ -45,13 +45,14 @@ class PitTabbarButton: UIControl {
     }
 
     private func setup() {
+		
         addSubview(imageView)
         addSubview(textLabel)
         
         imageView.translatesAutoresizingMaskIntoConstraints = false
         textLabel.translatesAutoresizingMaskIntoConstraints = false
         
-        let margins = layoutMarginsGuide
+		let margins = self.safeAreaLayoutGuide
         
         imageView.centerXAnchor.constraint(equalTo: margins.centerXAnchor).isActive = true
         imageView.centerYAnchor.constraint(equalTo: margins.centerYAnchor).isActive = true
@@ -60,9 +61,9 @@ class PitTabbarButton: UIControl {
         
         textLabel.leadingAnchor.constraint(equalTo: margins.leadingAnchor).isActive = true
         textLabel.trailingAnchor.constraint(equalTo: margins.trailingAnchor).isActive = true
-		textLabel.bottomAnchor.constraint(equalTo: margins.bottomAnchor, constant: -1).isActive = true
+		textLabel.bottomAnchor.constraint(equalTo: margins.bottomAnchor).isActive = true
     }
-    
+    /// 切换动画
     override var isSelected: Bool {
         get { return super.isSelected }
         set {
@@ -74,8 +75,8 @@ class PitTabbarButton: UIControl {
                 UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.9, initialSpringVelocity: 0.9, options: .curveEaseInOut) {
                     self.imageView.transform = CGAffineTransform(translationX: 0, y: -20)
                     self.textLabel.alpha = 1
-					self.textLabel.transform = UIDevice.current.isNotch ? CGAffineTransform(translationX: 0, y: 10)
-												: .identity
+					self.textLabel.transform = UIDevice.current.isNotch ? CGAffineTransform(translationX: 0, y: 4) :
+						.identity
                 }
 
             }

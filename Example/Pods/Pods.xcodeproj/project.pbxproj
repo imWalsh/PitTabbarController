@@ -13,7 +13,7 @@
 		6D043EA961153E6F3AEA2050F4BC5510 /* PitTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910B851C642E24CC4E3DB7788658124F /* PitTabbarController.swift */; };
 		A8CE31CA09475DEBF358028CF025F46B /* Pods-PitTabbarController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F92EEA34BB1157EBCCBCE38FE011202 /* Pods-PitTabbarController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B238F632286309DC2463E87C5C9DEF81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
-		C2F7CB23BB682E6E3D630B8BB42B86A5 /* UIApplication+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28125FE512621265342D18938EA47D3 /* UIApplication+Ex.swift */; };
+		C2F7CB23BB682E6E3D630B8BB42B86A5 /* UIDevice+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28125FE512621265342D18938EA47D3 /* UIDevice+Ex.swift */; };
 		C5C8F472F763B198E217E4EE9D74338A /* PitTabbarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8659FDFD836C15142CFD5BD90CD15111 /* PitTabbarButton.swift */; };
 		CCBD333507A23E5ADE12EAD8DB3868EE /* PitTabbarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6CCA2BEAE603738B27742697A7063C0 /* PitTabbarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D10879D42753A2DF7471862054016349 /* Pods-PitTabbarController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EEDC7355FC657526C928A01B6AB457B /* Pods-PitTabbarController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -76,7 +76,7 @@
 		DC63E12C32FF2A47CA3FAA2EB8C85906 /* Pods-PitTabbarController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PitTabbarController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E8882683B49DE9F8DF73EC2F4106BAEE /* Pods-PitTabbarController_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PitTabbarController_Tests"; path = Pods_PitTabbarController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0536AA7EDA53A5AD9C3BC77225CE3F6 /* Pods-PitTabbarController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PitTabbarController_Tests.modulemap"; sourceTree = "<group>"; };
-		F28125FE512621265342D18938EA47D3 /* UIApplication+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+Ex.swift"; path = "PitTabbarController/Classes/UIApplication+Ex.swift"; sourceTree = "<group>"; };
+		F28125FE512621265342D18938EA47D3 /* UIDevice+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDevice+Ex.swift"; path = "PitTabbarController/Classes/UIDevice+Ex.swift"; sourceTree = "<group>"; };
 		F6CCA2BEAE603738B27742697A7063C0 /* PitTabbarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PitTabbarController-umbrella.h"; sourceTree = "<group>"; };
 		FBC9DE509205E5F5C0E8D7413B09D3E4 /* Pods-PitTabbarController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PitTabbarController_Example.modulemap"; sourceTree = "<group>"; };
 		FFCF7A862EF7C3939C259DA6D37E0109 /* PitTabbarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PitTabbarController-prefix.pch"; sourceTree = "<group>"; };
@@ -167,7 +167,7 @@
 				43AB9E9629151B61007D5651 /* Constant.swift */,
 				8659FDFD836C15142CFD5BD90CD15111 /* PitTabbarButton.swift */,
 				910B851C642E24CC4E3DB7788658124F /* PitTabbarController.swift */,
-				F28125FE512621265342D18938EA47D3 /* UIApplication+Ex.swift */,
+				F28125FE512621265342D18938EA47D3 /* UIDevice+Ex.swift */,
 				4B9A84AB85E082E6D3511C51CB5ACCEF /* Pod */,
 				66C87E6F5A8E8D5D5E7ACCBCFAE0AC63 /* Support Files */,
 			);
@@ -396,7 +396,7 @@
 				6D043EA961153E6F3AEA2050F4BC5510 /* PitTabbarController.swift in Sources */,
 				43AB9E9729151B61007D5651 /* Constant.swift in Sources */,
 				F61709210D9A6D5869DF5E92A7DB957A /* PitTabbarController-dummy.m in Sources */,
-				C2F7CB23BB682E6E3D630B8BB42B86A5 /* UIApplication+Ex.swift in Sources */,
+				C2F7CB23BB682E6E3D630B8BB42B86A5 /* UIDevice+Ex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PitTabbarController'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'PitTabbarController.'
   s.swift_version    = "5.0"
 
