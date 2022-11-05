@@ -9,8 +9,8 @@ import UIKit
 public extension UIDevice {
 	
     var isNotch: Bool {
-		if let mainWindow = UIApplication.shared.delegate?.window,
-		   let bottom = mainWindow?.safeAreaInsets.bottom, bottom > 0.0 {
+		if let window = (UIApplication.shared.connectedScenes.first as? UIWindowScene)?.windows.first,
+		   window.safeAreaInsets.bottom > 0.0 {
 			return true
 		}
         return false
