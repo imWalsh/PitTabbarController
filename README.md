@@ -3,7 +3,7 @@
 [![CI Status](https://img.shields.io/travis/imwalsh/PitTabbarController.svg?style=flat)](https://travis-ci.org/imwalsh/PitTabbarController)
 
 ## Example
-<p align="right" width="100%">
+<p align="center">
 <img src="https://github.com/imWalsh/PitTabbarController/blob/main/Resources/screenshot.png" height="200>
 </p>
 
