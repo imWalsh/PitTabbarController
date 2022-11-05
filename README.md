@@ -3,8 +3,9 @@
 [![CI Status](https://img.shields.io/travis/imwalsh/PitTabbarController.svg?style=flat)](https://travis-ci.org/imwalsh/PitTabbarController)
 
 ## Example
-
-<img align="center" src="https://github.com/imWalsh/PitTabbarController/blob/main/Resources/screenshot.png">
+<p align="right" width="100%">
+<img src="https://github.com/imWalsh/PitTabbarController/blob/main/Resources/screenshot.png" height="200>
+</p>
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
